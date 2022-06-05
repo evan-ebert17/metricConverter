@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>metricConv</title>
-    
+    <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1>Metric Units Converter</h1>
+        <div>Select a Unit of Measurement<br>
+            <div>
+                <select>
+                    <option id="m">meter</option>
+                    <option id="g">gram</option>
+                </select>
+            </div>
+            <div>
+                <input>
+                <select id="compareOne">
+                    <option value="nm">nano<p class="selectedUnit"></p>
+                    </option>
+                    <option value="um">micro<p class="selectedUnit"></p>
+                    </option>
+                    <option value="mm">milli<p class="selectedUnit"></p>
+                    </option>
+                    <option value="cm">centi<p class="selectedUnit"></p>
+                    </option>
+                    <option value="decim">deci<p class="selectedUnit"></p>
+                    </option>
+                    <option value="km">kilo<p class="selectedUnit"></p>
+                    </option>
+                </select>
+                <input>
+                <select id="compareTwo">
+                    <option value="nm">nano<p class="selectedUnit"></p>
+                    </option>
+                    <option value="um">micro<p class="selectedUnit"></p>
+                    </option>
+                    <option value="mm">milli<p class="selectedUnit"></p>
+                    </option>
+                    <option value="cm">centi<p class="selectedUnit"></p>
+                    </option>
+                    <option value="decim">deci<p class="selectedUnit"></p>
+                    </option>
+                    <option value="km">kilo<p class="selectedUnit"></p>
+                    </option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <script src="assets/script.js"></script>
 </body>
+
 </html>
