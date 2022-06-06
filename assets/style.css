@@ -1,6 +1,6 @@
 * {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #000000;
+    background-color: #2c2b2b;
     color: #84EF98;
 }
 
@@ -25,10 +25,11 @@ h1 {
 }
 
 button {
-background-color: #6d6161a1;
+border-color: #fff;
 }
 
 input {
     margin-right: 5px;
     margin-top: 5px;
+    border-color: #fff;
 }
