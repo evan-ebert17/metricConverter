@@ -1,5 +1,7 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    color: #84EF98;
 }
 
 h1 {
@@ -14,12 +16,18 @@ h1 {
 
 .unitsConvert {
     display: flex;
+    align-items: baseline;
 }
 .conv {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+
+button {
+background-color: #6d6161a1;
+}
+
 input {
     margin-right: 5px;
     margin-top: 5px;

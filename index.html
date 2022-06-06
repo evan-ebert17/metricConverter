@@ -14,45 +14,36 @@
         <h1>Metric Units Converter</h1>
         <div class="unitsContainer">Select a Unit of Measurement<br>
             <div class="unitChoose">
-                <select>
-                    <option id="m">meter</option>
-                    <option id="g">gram</option>
+                <select id="unitSelect">
+                    <option value="meter">meter</option>
+                    <option value="gram">gram</option>
                 </select>
             </div>
             <div class="unitsConvert">
                 <div class="conv">
                     <input id="convertFrom"><br>
                     <select id="compareFrom">
-                        <option value="nm">nano<p class="selectedUnit"></p>
-                        </option>
-                        <option value="um">micro<p class="selectedUnit"></p>
-                        </option>
-                        <option value="mm">milli<p class="selectedUnit"></p>
-                        </option>
-                        <option value="cm">centi<p class="selectedUnit"></p>
-                        </option>
-                        <option value="decim">deci<p class="selectedUnit"></p>
-                        </option>
-                        <option value="km">kilo<p class="selectedUnit"></p>
-                        </option>
+                        <option value="-9">nano </option>
+                        <option value="-6">micro </option>
+                        <option value="-3">milli </option>
+                        <option value="-2">centi </option>
+                        <option value="-1">deci </option>
+                        <option value="3">kilo </option>
                     </select>
                 </div>
                 <div class="conv">
                     <input id="convertTo"><br>
                     <select id="compareTo">
-                        <option value="nm">nano<p class="selectedUnit"></p>
-                        </option>
-                        <option value="um">micro<p class="selectedUnit"></p>
-                        </option>
-                        <option value="mm">milli<p class="selectedUnit"></p>
-                        </option>
-                        <option value="cm">centi<p class="selectedUnit"></p>
-                        </option>
-                        <option value="decim">deci<p class="selectedUnit"></p>
-                        </option>
-                        <option value="km">kilo<p class="selectedUnit"></p>
-                        </option>
+                        <option value="-9">nano </option>
+                        <option value="-6">micro </option>
+                        <option value="-3">milli </option>
+                        <option value="-2">centi </option>
+                        <option value="-1">deci </option>
+                        <option value="3">kilo </option>
                     </select>
+                </div>
+                <div>
+                    <button id="convertBtn">Convert</button>
                 </div>
             </div>
         </div>
